@@ -341,7 +341,7 @@ p {
   opacity: 1;
 }
 
-.work .content .workBx .textBx > h3 {
+.work .content .workBx .textBx > h1 {
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 1px;
