@@ -170,12 +170,12 @@ p {
   list-style: none;
 }
 
-.sci > li > img {
+.sci > li > a > img {
   transform: scale(0.5);
   opacity: 0.7;
 }
 
-.sci > li > img:hover {
+.sci > li > a > img:hover {
   opacity: 1;
   transform: scale(0.7);
 }
@@ -427,11 +427,19 @@ p {
     width: 100%;
     padding: 40px;
   }
+
+  .contentBx > h4,
+  h2,
+  span {
+    padding-top: 10rem;
+  }
+
   .sidebar {
     padding: 70px;
   }
   .logoText {
     left: 40px;
+    margin-top: 0;
   }
   .toggle {
     right: 40px;
