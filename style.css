@@ -433,8 +433,7 @@ p {
   }
 
   .contentBx > h4,
-  h2,
-  h4 > span {
+  h2 {
     padding-top: 10rem;
   }
 
