@@ -423,6 +423,10 @@ p {
     width: 40%;
   }
 
+  * {
+    width: 100%;
+  }
+
   .banner .contentBx .sidebar {
     width: 100%;
     padding: 40px;
@@ -430,7 +434,7 @@ p {
 
   .contentBx > h4,
   h2,
-  span {
+  h4 > span {
     padding-top: 10rem;
   }
 
@@ -445,7 +449,11 @@ p {
     right: 40px;
   }
   .sci {
-    bottom: -10px;
+    bottom: -20px;
+    left: 40px;
+  }
+  .btn {
+    bottom: -20px;
     left: 40px;
   }
   section {
