@@ -419,11 +419,16 @@ p {
 
 @media (max-width: 991px) {
   .banner .imgSidebar {
-    display: none;
+    display: inline;
+    width: 40%;
   }
+
   .banner .contentBx .sidebar {
     width: 100%;
     padding: 40px;
+  }
+  .sidebar {
+    padding: 70px;
   }
   .logoText {
     left: 40px;
@@ -432,6 +437,7 @@ p {
     right: 40px;
   }
   .sci {
+    bottom: -10px;
     left: 40px;
   }
   section {
